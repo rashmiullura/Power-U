@@ -11,7 +11,7 @@ const Items = ({ id, title, description, price, img, quantity }) => {
         </div>
 
         <div className="title">
-          <h2>{title}</h2>
+          <h5 style={{color:"black"}}>{title}</h5>
           <p>{description}</p>
         </div>
         <div className="add-minus-quantity">
@@ -20,7 +20,7 @@ const Items = ({ id, title, description, price, img, quantity }) => {
           <i className="fas fa-plus add" onClick={() => increment(id)}></i>
         </div>
         <div className="price">
-          <h3>{price}</h3>
+          <h5 style={{color:"black"}}>₹{price}</h5>
         </div>
         <div className="remove-item">
           <i

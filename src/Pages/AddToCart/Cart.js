@@ -8,7 +8,7 @@ export const CartContext = createContext();
 
 const initialState = {
   item: products,
-  totalAmount: 200,
+  totalAmount: products.map(item => item.price).reduce((sum, price) => price + sum),
   totalItems: 0,
   quantity: 1,
 };
@@ -43,6 +43,7 @@ const Cart = () => {
       payload: id,
     });
   };
+
 
   return (
     <>
