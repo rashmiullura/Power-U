@@ -6,7 +6,7 @@ function Land() {
   return (
     <div className="Land">
       <header className="Land-header">
-        <img src={logo} className="Land-logo" alt="logo" />
+        <img src={logo} alt="logo" />
        
       </header>
       <div className='hero'>

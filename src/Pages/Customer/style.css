@@ -1,3 +1,27 @@
+.products {
+  display: flex;
+  flex-flow: column;
+  max-width: 12in;
+  margin: auto;
+}
+
+.product-header {
+  padding: 2em;
+}
+
+.product-title{
+  font-size: 3em;
+  font-weight: 900;
+  padding-bottom: 1em;
+}
+
+.product-search-filter{
+  font-size: 3em;
+  font-weight: 900;
+  padding-bottom: 1em;
+  display: flex;
+}
+
 img {
     max-width: 50%;
   }
@@ -5,7 +29,6 @@ img {
   .filter{
     display: flex;
     flex-direction: row;
-    float:right;
     align-items: center;
     padding: 0px;
     gap: 8px;
@@ -44,4 +67,10 @@ img {
 
   .user{
     margin-top:10px;
+    margin-left: 1em;
+  }
+
+  .product-search{
+    display: flex;
+    flex-grow: 1;
   }
