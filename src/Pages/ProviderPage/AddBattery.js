@@ -83,7 +83,7 @@ function AddBattery() {
         </Card>  
        
         <br />
-        <Button variant="success" size="lg" 
+        <Button
         // onClick={proPricingForm}
         >Submit</Button>
     </Form>

@@ -53,7 +53,7 @@ function Login() {
             <div className='login-head'>
                 <div className="title">Login</div>
                 <div className="user-type">
-                    <p className="details" style={{ marginLeft: "5px" }}>Type of user</p>
+                    {/* <p className="details" style={{ marginLeft: "5px" }}>Type of user</p> */}
 
                     <select
                         className='type-dropdown'
@@ -77,17 +77,18 @@ function Login() {
                         <input type="text"
                             // value={email}
                             // onChange={(e)=> setEmail(e.target.value)}
-                            placeholder="Enter your email" />
+                            placeholder="Email" required/>
                     </div>
                     <div className="input-box">
                         <i className="fas fa-lock"></i>
                         <input type="password"
                             // value={password}
                             // onChange={(e)=> setPassword(e.target.value)}
-                            placeholder="Enter your password" />
+                            placeholder="Password"  required/>
                     </div>
+                    
                     <div className="captcha-box">
-                        <p className="captcha-input">Enter Captcha</p>
+                        <p className="captcha-input"></p>
                         <div id="preview" className="preview">
 
                         </div>
@@ -106,7 +107,7 @@ function Login() {
                         // onClick={loginUser}
                         />
                     </div>
-                    <div className="text sign-up-text">Don't have an account? <label htmlFor="flip">Sigup now</label>
+                    <div className="text sign-up-text">Don't have an account? <label htmlFor="flip" style={{color: "#0d6efd"}}>Sigup now</label>
                     </div>
                 </div>
             </form>

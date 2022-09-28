@@ -53,7 +53,7 @@ export default function Signup() {
             </div>
         </form>
             </div>
-            <div className="text sign-up-text">Already have an account? <label htmlFor="flip">Login now</label>
+            <div className="text sign-up-text">Already have an account? <label htmlFor="flip" style={{color: "#0d6efd"}}>Login now</label>
             </div>
         </div>
 

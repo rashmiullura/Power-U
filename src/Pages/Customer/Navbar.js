@@ -1,34 +1,51 @@
 import User from "./User";
-import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-import { faUser, faCartShopping } from '@fortawesome/free-solid-svg-icons'
-import logo from '../../logo.png'; 
-import "./Navbar.css"
-import { Button } from "react-bootstrap";
+import{Link} from 'react-router-dom';
 
 function Navbar() {
   return (
-    <div className="navbar-container">
+    <div>
       <nav className="navbar justify-content-between">
-        <div className="navbar-brand" style={{ height: '3em', marginLeft: "40px" }}>
-        
-        <img src={logo} alt="logo" />
-        <User />
-          
+        <div className="navbar-brand" style={{ marginLeft: "40px" }}>
+       
+          <img
+            src="./images/userfinal.png"
+            width="100px"
+            height="auto"
+            alt="user"
+          />
+          <User/>
+         
         </div>
-        <Link
-          to='/cart'
-          className='btn-link'
-        >
-          <div >
-
-            <Button variant="outline-light" style={{ alignItems: "center", borderRadius: '30rem',margin: " 0 40px" }} >
-              <FontAwesomeIcon style={{padding: '0 1em'}}color="#fff" icon={faCartShopping} />
-              Cart
-            </Button>
+        <form>
+          <div className="search-bar">
+            <input
+              className="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button
+              className="btn btn-primary"
+              type="submit"
+              style={{ marginLeft: "10px" }}
+            >
+              Search
+            </button>
           </div>
-        </Link>
+        </form>
+        <Link
+                  to='/cart'
+                  className='btn-link'
+                >
+        <div >
+        <img
+            src="./images/cart.png"
+            width="100px"
+            height="auto"
+            alt="user"
+          />
+          </div>
+          </Link>
       </nav>
     </div>
   );

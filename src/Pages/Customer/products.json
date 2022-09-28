@@ -1,0 +1,61 @@
+[{
+    "title": "Battery x",
+    "image": "/images/battery.png",
+    "id": "battery",
+    "description": "2000mah fully charged premium battery",
+    "price": "2000"
+  },
+
+  {
+    "title": "Battery x",
+    "image": "/images/battery.png",
+    "id": "battery",
+    "description": "2000mah fully charged premium battery",
+    "price": "2000"
+  },
+  {
+    "title": "Battery x",
+    "image": "/images/battery.png",
+    "id": "battery",
+    "description": "2000mah fully charged premium battery",
+    "price": "2000"
+  },
+
+  {
+    "title": "Battery y",
+    "image": "/images/battery.png",
+    "id": "battery",
+    "description": "2000mah fully charged premium battery",
+    "price": "1000"
+  },
+  {
+    "title": "Battery z",
+    "image": "/images/battery.png",
+    "id": "battery",
+    "description": "2000mah fully charged premium battery",
+    "price": "1500"
+  },
+
+  {
+    "title": "Battery x",
+    "image": "/images/battery.png",
+    "id": "battery",
+    "description": "2000mah fully charged premium battery",
+    "price": "2000"
+  },
+  {
+    "title": "Battery x",
+    "image": "/images/battery.png",
+    "id": "battery",
+    "description": "2000mah fully charged premium battery",
+    "price": "2000"
+  },
+
+  {
+    "title": "Battery y",
+    "image": "/images/battery.png",
+    "id": "battery",
+    "description": "2000mah fully charged premium battery",
+    "price": "1000"
+  }
+]

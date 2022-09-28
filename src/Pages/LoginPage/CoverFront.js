@@ -6,8 +6,7 @@ export  default function CoverFront(){
                 <div className="front">
                     <div className="text">
                         {/* <span className="text-1">Welcome to<br /> PowerU</span> */}
-                        
-
+                       
                     </div>
                 </div>
                 <div className="back">
