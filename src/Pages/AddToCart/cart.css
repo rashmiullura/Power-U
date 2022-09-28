@@ -123,9 +123,13 @@ header {
 }
 
 /* cart main div start  */
-
+.para{
+  width: 80%;
+  margin :auto;
+  margin-bottom: 0%;
+}
 .main-cart-section .cart-items {
-  width: 100%;
+  width: 80%;
   background: linear-gradient(
     103.49deg,
     #ffffff -28.13%,
@@ -134,11 +138,8 @@ header {
   box-shadow: rgba(0, 0, 0, 0.08) 0rem 0.4rem 1.2rem;
   border-radius: 2rem;
   margin: auto;
-  margin: auto;
   display: grid;
   place-items: center;
-  /* min-height: unset !important;
-  height: 50px !important; */
   height: auto;
 }
 
@@ -374,4 +375,13 @@ header {
   .card-total button {
     margin-bottom: 3rem;
   }
+}
+
+
+body{
+  width: 100%;
+}
+
+.buttons{
+ 
 }

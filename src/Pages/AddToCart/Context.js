@@ -10,14 +10,16 @@ const ContextCart = () => {
     if (item.length === 0) {
       return (
         <>
-        <div style={{backgroundColor : "#8FE3CF", width:"100%", height:"50px"}}></div>
+        <div style={{backgroundColor : "#8FE3CF", width:"100%", height:"50px"}}><image src="logo.png" style={{width:"50px"}}></image></div>
           <section className="main-cart-section">
-            <h1>Shopping Cart</h1>
+            
+            <div className="para">
             <p className="total-items">
               You have <span className="total-items-count">{totalItems} </span>
               items in shopping cart
             </p>
 
+            </div>
             <div className="cart-items">
               <div className="cart-items-container">
                 <Scrollbars className="cart-items-container">
@@ -33,11 +35,13 @@ const ContextCart = () => {
         <>
         <div style={{backgroundColor : "#8FE3CF", width:"100%", height:"50px", marginLeft:"0%"}}></div>
           <section className="main-cart-section">
-            <h1>Shopping Cart</h1>
+            
+            <div className="para">
             <p className="total-items">
               You have <span className="total-items-count">{totalItems} </span>
               items in shopping cart
             </p>
+            </div>
 
             <div className="cart-items">
               <div className="cart-items-container">
@@ -50,13 +54,16 @@ const ContextCart = () => {
             </div>
             <div className="card-total">
               <h3>
-                Card Total: <span> {totalAmount}₹ </span>
+                Card Total: <span> ₹{totalAmount} </span>
               </h3>
-              <button onClick={clearCart}>Clear Cart</button>
+              
+              <div className="buttons">
+              <button onClick={clearCart} style={{marginRight:"5px"}}>Clear Cart</button>
               
               <button>Book Now</button>
-              
+              </div>  
             </div>
+            
           </section>
         </>
       );
