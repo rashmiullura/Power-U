@@ -1,5 +1,4 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import logo from './logo.png';
 import './App.css';
 import LoginSignup from './Pages/LoginPage/LoginSignup';
 import Admin from './Pages/AdminPage/Admin';
@@ -7,6 +6,8 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Provider from './Pages/ProviderPage/Provider';
 import Error from './Pages/Error';
 import Land from './Pages/Land';
+import Cart from './Pages/AddToCart/Cart';
+// import Cart from './Pages/ProviderPage/Cart';
 function App() {
   return (
     <div className="App">
@@ -30,7 +31,8 @@ function App() {
         <Route path='/login-signup' exact element={<LoginSignup />} /> 
         <Route path='/provider' exact element={<Provider />} /> 
         <Route path="*" exact element={<Error />} />
-
+        <Route path="/cart" exact element={<Cart></Cart>}></Route>
+        {/* <Route path='/cart' exact element={<Cart></Cart>}></Route> */}
       </Routes>
       
       
